@@ -1,0 +1,48 @@
+@model AppStore.Models.DTO.LibroListVm;
+
+@{
+    Layout = "_Layout";
+}
+
+
+
+ <section class="search-bar">
+    <form method="get" action="/Home/Index">
+        <input type="text" name="term" placeholder="buscar libro" value="@Model.Term">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+</section>
+        
+        <section class="movies">
+    @foreach(var libro in Model.LibroList!){
+            <div class="movie-card"onclick="window.location.href='/Home/LibroDetail?libroId=@libro.Id'" >
+              <div class="movie-image">
+              <img src="/Uploads/@libro.Imagen" width="200" height="300">
+            </div>
+            <div class="movie-info">
+                <h4>@libro.Titulo</h4>
+                <h4>@libro.CategoriasNames</h4>
+                <h4>@libro.CreateDate</h4>
+            </div>
+           </div>
+    }
+           
+
+        </section>
+
+       <div class="pagination">
+    @if (Model.CurrentPage > 1)
+    {
+        <a href="?term=@Model.Term&currentPage=@(Model.CurrentPage - 1)">&laquo; Anterior</a>
+    }
+    
+    @for (int i = 1; i <= Model.TotalPages; i++)
+    {
+        <a href="?term=@Model.Term&currentPage=@i" class="@(Model.CurrentPage == i ? "active" : "")">@i</a>
+    }
+
+    @if (Model.CurrentPage < Model.TotalPages)
+    {
+        <a href="?term=@Model.Term&currentPage=@(Model.CurrentPage + 1)">Siguiente &raquo;</a>
+    }
+</div>

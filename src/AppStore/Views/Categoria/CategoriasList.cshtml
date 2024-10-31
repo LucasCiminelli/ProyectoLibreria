@@ -1,0 +1,32 @@
+@model IEnumerable<AppStore.Models.Domain.Categoria> 
+@{
+    Layout = "_Layout";
+}
+
+<div class="tbl-container">
+    <h2>Administración de Libros</h2>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Acción</th>
+        </tr>
+
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.Nombre</td>
+                <td>
+                    <a href="/Categoria/Edit?id=@item.Id" class="btn btn-default">
+                        <i class="fa fa-edit"></i>
+                    </a>
+                    <a href="/Categoria/Delete?id=@item.Id" onclick="return window.confirm('¿Estás seguro?')" class="btn btn-danger">
+                        <i class="fa fa-trash"></i>
+                    </a>
+                </td>
+            </tr>
+        }
+    </table>
+    <div class="input-container">
+        <a href="/Categoria/Add" class="btn btn-sec">Atrás</a>
+    </div>
+</div>

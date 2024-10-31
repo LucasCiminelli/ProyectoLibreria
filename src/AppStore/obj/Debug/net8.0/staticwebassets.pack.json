@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\05be6484-6f8f-464a-bfbd-f6a358924418.png",
+      "PackagePath": "staticwebassets\\Uploads\\05be6484-6f8f-464a-bfbd-f6a358924418.png"
+    },
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\16e397b0-a99d-4134-acbb-55756ef7a937.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\16e397b0-a99d-4134-acbb-55756ef7a937.jpeg"
+    },
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\57571f16-b005-422d-a3a1-5a54ce08ee25.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\57571f16-b005-422d-a3a1-5a54ce08ee25.jpg"
+    },
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\5de1704b-9c42-415f-9a4c-68e4e07bba96.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\5de1704b-9c42-415f-9a4c-68e4e07bba96.jpg"
+    },
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\7c4585c3-17a0-41a3-a07c-f0f66537d74d.png",
+      "PackagePath": "staticwebassets\\Uploads\\7c4585c3-17a0-41a3-a07c-f0f66537d74d.png"
+    },
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\8b600ca8-2019-4f13-829c-8c560d34b234.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\8b600ca8-2019-4f13-829c-8c560d34b234.jpeg"
+    },
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\catedral.png",
+      "PackagePath": "staticwebassets\\Uploads\\catedral.png"
+    },
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\cien.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\cien.jpg"
+    },
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\congo.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\congo.jpg"
+    },
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\f68b4b0f-3745-4e07-acab-ab71ea500518.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\f68b4b0f-3745-4e07-acab-ab71ea500518.jpg"
+    },
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\f83be9ba-f2b2-444a-9249-997831f1e2e2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\f83be9ba-f2b2-444a-9249-997831f1e2e2.jpg"
+    },
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\guerra.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\guerra.jpg"
+    },
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\harry.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\harry.jpg"
+    },
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\lazarillo.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\lazarillo.jpg"
+    },
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\quijote.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\quijote.jpg"
+    },
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\Uploads\\viajera.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\viajera.jpg"
+    },
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\css\\forms.css",
+      "PackagePath": "staticwebassets\\css\\forms.css"
+    },
+    {
+      "Id": "C:\\aspnet\\aspnet\\src\\AppStore\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AppStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AppStore.props",
+      "PackagePath": "build\\AppStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AppStore.props",
+      "PackagePath": "buildMultiTargeting\\AppStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AppStore.props",
+      "PackagePath": "buildTransitive\\AppStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
